@@ -7,7 +7,9 @@
     font-family: 'MinecraftSeven';
     src: url('../fonts/MinecraftSeven.woff') format('woff');
 }
-
+*{
+    font-family: 'MinecraftSeven';
+}
 h1,h2,h3 {
     font-family: 'MinecraftTen', sans-serif;
 }
