@@ -4,15 +4,41 @@
 }
 
 @font-face {
+    font-family: 'MinecraftFive';
+    src: url('../fonts/MinecraftFive.woff2') format('woff2');
+}
+
+@font-face {
     font-family: 'MinecraftSeven';
     src: url('../fonts/MinecraftSeven.woff') format('woff');
 }
-*{
-    font-family: 'MinecraftSeven';
+
+@font-face {
+    font-family: 'MinecraftTest';
+    src: url('../fonts/MinecraftTest.woff') format('woff');
 }
-h1,h2,h3 {
+
+* {
+    font-family: 'M';
+}
+
+.averageText {
+    line-height: 2vw;
+    font-family: 'MinecraftTest';
+    letter-spacing: -1.25px;
+    font-size: 1.7vw;
+}
+
+h1,
+h2,
+h3 {
     font-family: 'MinecraftTen', sans-serif;
 }
+
+h1 {
+    font-size: 3vw;
+}
+
 [light] {
     color: white;
 }
