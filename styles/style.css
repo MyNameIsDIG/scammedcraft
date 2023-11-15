@@ -35,7 +35,9 @@ h3 {
 }
 
 h1 {
-    font-size: 3vw;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    letter-spacing: -0.015em;
 }
 
 [light] {
