@@ -19,12 +19,11 @@
 }
 
 * {
-    font-family: 'M';
+    font-family: 'MinecraftTest';
 }
 
 .averageText {
     line-height: 2vw;
-    font-family: 'MinecraftTest';
     letter-spacing: -1.25px;
     font-size: 1.7vw;
 }
